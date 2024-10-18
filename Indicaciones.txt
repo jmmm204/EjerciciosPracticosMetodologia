@@ -1,0 +1,48 @@
+Resuelve los siguientes ejercicios, utilizando métodos en una clase externa
+a la clase Main. Utilizar arreglos y struct.
+
+1. Programa que sea capaz de almacenar los datos de 10 personas: nombre, dirección,
+teléfono, edad (usando structs). Deberá ir pidiendo los datos uno por uno, hasta que
+el usuario lo decida. Entonces deberá aparecer un menú que permita:
+• Mostrar la lista de todos los nombres.
+• Mostrar las personas de una cierta edad.
+• Mostrar las personas que coincidan con un nombre. Sea el que el usuario indique.
+• Salir del programa.
+- Cada opción del menú representa una función o procedimiento que se invocará desde
+la clase principal.
+- Utilizar funciones o procedimientos con parámetros.
+
+3. Crea un programa que use una lista genérica para almacenar temperaturas en grados
+Celsius. Implementa funciones para convertirlas a Fahrenheit y Kelvin, y mostrar las
+temperaturas convertidas, las cuales se almacenan en nuevas listas respectivamente.
+- El programa se repetirá las veces que el usuario lo decida.
+- Utilizar funciones con parámetros.
+- Agregar una función que permita eliminar de la lista que contiene las temperaturas
+convertidas. La que el usuario elija.
+
+5. Escribe el programa que tenga una función que reciba un arreglo de enteros y lo
+invierta (el primer elemento se convierte en el último, el segundo en el penúltimo,
+etc.). Muestra el arreglo original y el invertido.
+- No puedes utilizar métodos ya definidos en el lenguaje.
+- Implementa una función que determine en el arreglo invertido, cuántos valores
+impares existen y los imprima.
+
+Ejercicio No. 3 Desarrolla un programa que gestione las calificaciones de un
+grupo de estudiantes. El programa debe:
+✓ Permitir ingresar las calificaciones de varios
+estudiantes.
+✓ Calcular el promedio de calificaciones de cada
+estudiante.
+✓ Determinar el estudiante con el promedio más alto y el
+más bajo.
+Requisitos:
+✓ Implementar la función agregar_estudiante
+(estudiantes, nombre, calificaciones) para agregar
+estudiantes y sus calificaciones (una lista de notas).
+✓ Implementar la función calcular_promedio
+(calificaciones) para calcular el promedio de un
+estudiante.
+✓ Implementar la función
+determinar_alto_bajo_estudiante (estudiantes) que
+devuelva los nombres del estudiante con el promedio
+más alto y el promedio más bajo.
